@@ -1,0 +1,16 @@
+mysqldump -u root -p -P 3306 your_database_name FactSales > sales_backup.sql
+
+
+mysql -u root -p -P 3306 -D sales -e "DROP TABLE FactSales;"
+
+
+mysql -u root -p -P 3306 -D sales -e "SHOW TABLES;"
+
+
+mysql -u root -p -P 3306 -D sales < sales_backup.sql
+
+
+mysql -u root -p -P 3306 -D sales -e "SHOW TABLES;"
+
+
+
