@@ -1,5 +1,5 @@
 # IBMRDA
-## IBM Relational Database Administrator Professional Certificate
+## IBM Relational Database Administrator Professional Certificate (11 course series)
 
 Businesses rely on competent relational database administrators manage and secure structured databases, ensuring performance, integrity, backups, and user access that leads to good business decisions.
 
